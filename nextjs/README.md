@@ -1,3 +1,3 @@
 npm run dev
 
-deploy: 
+deploy: https://github.com/coodesh/todo-sample/tree/master/nextjs
