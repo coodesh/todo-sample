@@ -1,0 +1,22 @@
+.button {
+  padding: 1%;
+  background: #4545ff;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  &:hover{
+    opacity: 0.5;
+  }
+  &:disabled {
+    background-color: grey;
+  }
+}
+
+.input {
+  margin: 1%;
+  padding: 0.8%;
+  width: 250px;
+  text-align: left;
+  border-radius: 10px;
+}
