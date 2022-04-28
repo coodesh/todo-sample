@@ -5,6 +5,7 @@
 ### NextJS ###
 # Next build dir
 .next/
+coverage
 
 ### Node ###
 # Logs

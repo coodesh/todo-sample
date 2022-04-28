@@ -27,7 +27,7 @@ export default function Home() {
           <input className={styles.SpaceInput} checked={info.done} onChange={() => checked(info.id)} type="checkbox"/>
           <label style={{textDecoration: verifica(info.done)}}>{info.nameTask}</label>
         </div>
-      }) : <h1>Adicione sua primeira tarefa</h1>}
+      }) : <h1>Carregando...</h1>}
     </>
   )
 }
